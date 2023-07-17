@@ -1,0 +1,26 @@
+p{
+    font-family: 'Verdana', 'Dejavu Sans', 'sans-serif';
+    background-color: pink;
+}
+
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.three{
+    font-size: 24px;
+
+}
+
+#two {
+    font-size: 36px;
+    color: blue;
+}
+
+#four{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
