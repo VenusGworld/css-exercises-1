@@ -9,6 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
+  font-size:15px;
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
@@ -20,6 +21,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:8px;
+  display:flex;
 }
 
 .icon {
@@ -33,6 +36,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin:10px;
+  flex-shrink:0;
+  padding:0;
 }
 
 .close-button {
@@ -48,7 +54,12 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink:0;
+  margin-right: 10px;
 }
+
+
+
 
 button {
   cursor: pointer;
@@ -67,3 +78,25 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.header{
+  font-weight: bold;
+  font-size:20px;
+  display:flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction:column;
+  padding:0;
+  gap:10px;
+  margin-left:8px;
+}
+
+.buttons{
+  display:flex;
+  gap:5px;
+}
+
